@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="description" content="Vtop REvamped">
+  <meta name="keywords" content="VIT, vellore,vtop,revamped">
+  <meta name="author" content="Aman Agarwal">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Vtop Revamped
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
+	<!-- <script type="text/javascript" src="js/autocapcha/autocapcha.js"></script> -->
+	<script type="text/javascript" src="js/jquery/jquery.js"></script>
+	<script type="text/javascript" src="js/masonry/masonry.js"></script>
+	<!-- <script type="text/javascript" src="js/packery/packery.js"></script> -->
+	<link rel="javascript" type="text/javascript" href="js/masonry/masonry.js">
+
+	</script>
+	<style type="text/css">
+		body
+		{
+			padding:0px;
+			margin: 0px;
+			background-image: url(images/home1.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+
+		}
+		.row{
+
+			margin-top: 1%;
+			height: 10%;
+			background: rgba(0, 0, 0, 0.3);
+		}
+		.logo
+		{
+			margin-left:8%;
+			margin-top: 5%;
+			margin-bottom: 5%;
+			opacity: 1;
+			height:25%;
+			width: 25%;
+		}
+		.header-text
+		{
+			min-width: 80px;
+			margin-top: 0.6%;
+			padding:0;
+			/*font:raleway;*/
+			opacity:0.8;
+			color:white;
+			font-size: 10px;
+			/*margin:1px;*/
+
+		}
+		.lower-bar
+		{
+			position: absolute;
+			display: block;
+			margin-top: 28%;
+			width: 1920px;
+			height: 335px;
+			background-color: rgba(0,0,0,0.3);
+		}
+		.basic
+		{
+			padding:0px;
+			
+			margin:10px !important;
+			border: none;
+			background-color: white;
+			border-radius: 0px;
+			color:black;
+			font-family: raleway;
+			
+
+
+		}
+		.square-big
+		{
+			padding: 0px;
+			width:296.89px !important;
+			height:296.89px !important;
+			
+		}
+		.square-small
+		{
+			margin:10px;
+				padding: 0px;
+			/*margin-top: 10px;*/
+			width:139.08px !important;
+			height:139.08px !important;
+			padding:0px;
+		}
+	
+	</style>
+</head>
+<body>
+
+<div class="row">
+			<div class="col-xs-1 center" >
+					<img src="images\FinalLogo.png" alt="" class="logo">
+			</div>
+			<div class="col-xs-1 header-text ">
+					Home
+			</div>
+
+			<div class="col-xs-1 header-text">
+				Service Request
+			</div>
+			<div class="col-xs-1 header-text">
+				DSW events
+			</div>
+			<div class="col-xs-1 header-text">
+				Research
+			</div>
+			<div class="col-xs-1 header-text">
+				Library
+			</div>
+			<div class="col-xs-1 header-text">
+				Semester
+			</div>
+			<div class="col-xs-1 header-text">
+				Achieve
+			</div>
+			<div class="col-xs-1 header-text">
+				Hosteller
+			</div>
+			<div class="col-xs-1 header-text">
+				Physical Education
+			</div>
+			<div class="col-xs-1 header-text">
+				Riviera Registeration
+			</div>
+</div>
+	<div class="lower-bar">
+	<div class="row" style="background: none;">
+		<div class="basic col-xs-2 square-big">
+			Project list
+			
+		</div>
+		<div class=" basic col-xs-2 square-big">
+			DA pending
+		</div>
+		<div class="basic col-xs-2 square-big"> 
+			Lab Pending
+		</div>
+		<div class="basic col-xs-2 square-big">
+			attendance alert
+		</div>
+	<div class="col-xs-2">
+		<div class="basic col-xs-6 square-small">
+			CAT 1 Score
+		</div>
+			<div class="basic col-xs-6 square-small">
+			CAT2 Score
+		</div>
+			<div class="basic col-xs-6 square-small">
+			FAT Score
+		</div>
+			<div class="basic col-xs-6 square-small">
+			DA's Score
+		</div>
+	</div>
+		
+			<div class="basic col-xs-2 square-big">
+			Proctor Infos
+		</div>
+		 
+	</div>
+	</div>
+<script>
+	$('window').on('load',function(){
+			$('row').masonry({
+					columnWidth:'square-big'
+					itemSelector:'square-big'
+			});
+	});
+</script>
+
+</body>
+</html>
