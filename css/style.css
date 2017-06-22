@@ -1,0 +1,115 @@
+  body
+  {
+    background-image: url('C:/Users/Cyclops/Desktop/vtoprevamoed/images/home.jpg');
+    background-repeat:repeat-x repeat-y;
+    background-size: 100%;
+    margin:0%;
+    padding: 0%;
+
+  }
+  .second-bar
+  {
+  transform: translateY(20px);
+    width: 100%;
+    height: 42px;
+    background-color: rgba(0,0,0,0.3);
+  }
+  .top-bar
+  {
+    transform: translateY(15px);
+    width: 100%;
+    height: 42px;
+    background-color: rgba(0,0,0,0.3);
+  }
+  .logo
+  {
+    transform: translate(10px,3px);
+    height: 35px;
+    width: 35px;
+  }
+  .header
+  {
+    text-align:left;
+    font-size: 10px;
+    color:#FFFFFF;
+    transform: translateY(100%);
+  }
+  #sr2,#dsw2,#research2,#library2,#sem2
+  {
+  display: none;
+  }
+#bottom-bar
+{
+  margin-top: block;
+  display: block;
+  margin-top: 405px;
+  height: 140px;
+  width:100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.square-big
+{
+  -webkit-perspective:1000px;
+  margin: 11px 10px auto;
+  height:115px;
+  width:115px;
+  background-color: lightgrey;
+
+  border: 0.5px darkgreen solid;
+  border-radius: 5px;
+}
+#bonafide
+{
+text-align: left;
+}
+.square-small
+{
+text-align:center;
+  float: left;
+  display: inline-grid;
+  padding:0px 0px 0px 0px;
+  height:53px;
+  width:53px;
+  background-color: lightgrey;
+  border: 0.5px darkgreen solid;
+  border-radius: 5px;
+
+}
+#imp
+{
+  padding:0px 0px 0px 0px;
+
+}
+#a1
+{
+padding: 0;
+margin:0px 3px 3px 0px;
+}
+#a2
+{
+margin:0px 0px 3px 3px;
+}
+#a3
+{
+margin:3px 3px 0px 0px;
+}
+#a4
+{
+margin:3px 0px 0px 3px;
+}
+#project-icon,#da-icon,#lab-icon,#alert-icon
+{	padding-top: 5px;
+margin: auto;
+display: block;
+
+height: 40px;
+width: 40px;
+}
+#riviera
+{
+text-align: center;
+}
+#pending-project
+{
+margin-left: 30px ;
+}
